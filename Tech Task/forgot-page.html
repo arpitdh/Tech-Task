@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgot Id/Password</title>
+  <link rel="stylesheet" href="login-page.css">
+  <script defer src="forgot-page.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="forgot-header">Fir se Bhul Gye</h1>
+		<div id="forgot-error-msg-holder">
+		<p id="forgot-error-msg">Invalid / Incomplete Data</p>
+		</div>
+		
+    
+		<div id="forgot-success-msg-holder">
+		<p id="forgot-success-msg">Mail sent. Please check.</p>
+		</div>
+	
+    <form id="forgot-form">
+		<input type="text" name="Fname" id="fname-field" class="forgot-form-field" placeholder="First Name" required>
+		<input type="text" name="Lname" id="lname-field" class="forgot-form-field" placeholder="Last Name" required>
+		<input type="text" name="EmailId" id="email-field" class="forgot-form-field" placeholder="Email" required>
+		<input type="date" name="DateOfBirth" id="dob-field" class="forgot-form-field">
+	</form>
+	<form id="forgot-buttons">
+	  <input type="submit" value="Submit" id="forgot-form-submit">
+	  <input type="reset" value="Reset" id="reset-form-submit">
+	 </form>
+  
+  </main>
+</body>
+
+</html>
